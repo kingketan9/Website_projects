@@ -1,0 +1,199 @@
+html{
+    background-image: linear-gradient(#fc5e55,#fa4083);
+  
+}
+
+
+body{
+   background-image: url(lion-background.png);
+   background-repeat: no-repeat;
+   background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+header{
+   padding-top: 20px;
+   padding-bottom: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid white;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.card1{
+    min-height: 300px;
+    background-image: url(b1.jpg);
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
+    
+}
+.card2{
+    min-height: 300px;
+    background-image: url(b2.jpg);
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
+}
+.card3{
+    min-height: 300px;
+    background-image: url(b3.jpg);
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
+}
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+    
+}
+.herobox2{
+    flex: 1;
+    margin-top: -50px;
+}
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    font-weight: 300;
+
+    
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 300;
+   margin-bottom: -7px;
+    
+}
+p{
+    font-weight: 100;
+ 
+}
+.cards i{
+    font-size: 5.25rem;
+   padding-top: 3rem;
+   
+}
+.cards a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #fa4083;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  
+   
+
+}
+.navbutton{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.testimonials{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox{
+    width: 47%;
+    border: 1px solid white;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flexbox;
+    margin-top: 50px;
+}
+.button:hover{
+    background-color: rgb(29, 213, 103);
+    transition-duration: 1s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+.navbutton:hover .dropdown{
+    display: block;
+        
+}
+.dropdown .navbutton{
+    width: 160px;
+    margin-left:-50px; 
+}
+
+.navbutton:hover{
+    color: #fa4083;
+    background-color: white;
+    transition-duration: 300ms;
+}
+.dropdown .navbutton{
+    color: white;
+}
+
+.navbutton:hover .dropdown a{
+    color: white;
+}
+.dropdown .navbutton:hover a{
+    color: #fa4083;
+}
+.navbutton:hover a{
+    color: #fa4083;
+}
+.inputwrapper{
+    margin-bottom: 20px;
+}
+input[type=text],[type=email],textarea{
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;  
+    box-sizing: border-box;
+}
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
